@@ -1,0 +1,12 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cse3310.team8.objectdetect.MainActivity">
+    <item android:id="@+id/action_help"
+        android:title="@string/action_help"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

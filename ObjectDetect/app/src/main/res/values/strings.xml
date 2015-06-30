@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Object Detection</string>
+
+    <string name="title_section1">Motion Track</string>
+    <string name="title_section2">Color Detect</string>
+    <string name="title_section3">(Beta)Counter</string>
+    <string name="title_section4">Bounding Box</string>
+    <string name="title_section5">Edge Detection</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+
+    <string name="about_text">
+
+        \nDevelopment by:
+                      \n\n\tTyler D\'Spain
+                        \n\tTony McDonald
+                        \n\tDavid Harvey
+                        \n\tDaniel Stenbro\n\n
+
+
+
+        \nAndroid OpenCV library:
+        \n-Version 2.4.11
+
+    </string>
+    <string name="help_text">
+
+        <b>Motion Tracking</b> - Motion Tracking illuminates the changing contours in video frame.
+                          \n>><i>To set up: Place device steady and wait for background noise to dissipate.
+                          Objects moving in view will illuminate in a bright pink color.</i>\n\n
+
+        <b>Color Detection</b> - Color Detection will place a bounding box around the color detected by user.
+                          \n>><i>To set up:  Touch screen on area to get color sample.  Once selected objects
+                          of that color in the spectrum will be placed inside a green bounding box and tracked.</i>\n\n
+
+
+        <b>(Beta)Counter</b> - Counter captures any moving object and will place a bounding box around object and once the object
+                        passes the count line, the counter will be updated by 1
+                        \n>><i>To set up:  Place device steady and wait for background noise to dissipate
+                        Objects moving will be placed inside a blue bounding box and will update the count and change
+                        counter line display red once the center passes the counter line threshold.</i>\n\n
+
+        <b>Bounding Box</b> - Bounding Box will place a purple stationary box in center of screen, once user selects a object color to track
+                       the object will then have a cyan bounding box around it, once it enters entirely inside the stationary box
+                       it will then change to a red and display "Captured".
+                       \n>><i>To set up: Touch screen on area to get color sample.  Once selected objects of that color
+                       in the spectrum will be placed inside a cyan bounding box and tracked.  Move the device to
+                       place the object tracked inside the stationary purple box.</i>\n\n
+
+        <b>Edge Detection</b> - Edge detection will find all edges in camera view and only display the picture with the edges highlighted in
+                         a blackscreen view
+                         \n>><i>To set up: Pan device around to watch the edges detected in real time in the view.</i>
+
+    </string>
+    <string name="title_activity_main">Object Detection</string>
+
+</resources>

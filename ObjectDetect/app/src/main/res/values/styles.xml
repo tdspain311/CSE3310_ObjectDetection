@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--style name ="Theme.NoActionBar" parent = "@style/Theme.AppCompat">
+
+        <item name = "windowActionBar">false</item>
+        <item name = "android:windowNoTitle">true</item>
+    </style-->
+</resources>
