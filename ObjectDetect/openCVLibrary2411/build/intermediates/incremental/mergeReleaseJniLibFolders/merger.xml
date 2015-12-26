@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Tyler\OneDrive\School\CSE 3310\Project\CSE3310_ObjectDetection\ObjectDetect\openCVLibrary2411\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\Tyler\OneDrive\School\CSE 3310\Project\CSE3310_ObjectDetection\ObjectDetect\openCVLibrary2411\src\release\jniLibs"/></dataSet></merger>
